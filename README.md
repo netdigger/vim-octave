@@ -20,6 +20,7 @@ Install plugin by manual
 ## Active plugin
 
 Add the following lines to your ~/.vimrc to get ViM to use the file 
+
 	"Octave
 	augroup filetypedetect
 	  au! BufRead,BufNewFile *.m,*.oct set filetype=octave
